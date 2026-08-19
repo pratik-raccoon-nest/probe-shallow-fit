@@ -1,0 +1,27 @@
+# >>> raccoon managed >>>
+node_modules/
+.next/
+dist/
+build/
+.turbo/
+.cache/
+.venv/
+__pycache__/
+.DS_Store
+*.log
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+.user_env
+service-account*.json
+*credentials.json
+!.env.defaults
+!.env.example
+!.env.sample
+!.env.template
+# <<< raccoon managed <<<
